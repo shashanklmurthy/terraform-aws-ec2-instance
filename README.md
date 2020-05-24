@@ -1,4 +1,4 @@
-AWS Network Skeleton Terraform module
+AWS EC2 Instance Terraform module
 =====================================
 
 [![Opstree Solutions][opstree_avatar]][opstree_homepage]
@@ -8,7 +8,7 @@ AWS Network Skeleton Terraform module
   [opstree_homepage]: https://opstree.github.io/
   [opstree_avatar]: https://img.cloudposse.com/150x150/https://github.com/opstree.png
 
-Terraform module which creates network skeleton on AWS.
+Terraform module which creates EC2 Instance on AWS.
 
 These types of resources are supported:
 
