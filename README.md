@@ -65,7 +65,7 @@ Inputs
 | name | The string for name of the instance | `string` | `"false"` | yes |
 | tags | The tags for ec2 instance   | `string` | `"false"` | no |
 | instance_type | You can define the type of instance | `string` | `"false"` | yes |
-| key_name | Name of the key that you have to define while create an key | `string` | `"true"` | yes |
+| key_name | Name of the key that you have to define while create an key | `string` | `"false"` | yes |
 | volume_size | Define size of EBS volume  | `number` | `"false"` | yes |
 | subnet |define subnet to launch ec2 instace to particular subnet | `string` | `"false"` | yes |
 | security_groups |define security group to attach an instace to particular subnet | `list` | `"false"` | yes |
@@ -88,8 +88,7 @@ Check out these related projects.
 
 ### Contributors
 
-| [![Devesh Sharma][devesh_avataar]][devesh_homepage]<br/>[Devesh Sharma][devesh_homepage] |
-|---|---|
+[![Devesh Sharma][devesh_avataar]][devesh_homepage]<br/>[Devesh Sharma][devesh_homepage] 
 
   [devesh_homepage]: https://github.com/deveshs23
   [devesh_avataar]: https://img.cloudposse.com/75x75/https://github.com/deveshs23.png
