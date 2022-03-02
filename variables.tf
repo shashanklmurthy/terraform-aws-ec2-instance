@@ -24,11 +24,11 @@ variable "volume_size" {
   type        = number
 }
 
-variable "volume_type" {
-  description = "volume size"
-  type        = string
-  default     = "gp2"
-}
+# variable "volume_type" {
+#   description = "volume size"
+#   type        = string
+#   default     = "gp2"
+# }
 
 variable "ami_id" {
   description = "Name of Launch configuration"
