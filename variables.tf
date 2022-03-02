@@ -24,6 +24,11 @@ variable "volume_size" {
   type        = number
 }
 
+variable "volume_type" {
+  description = "volume size"
+  type        = string
+}
+
 variable "ami_id" {
   description = "Name of Launch configuration"
   type        = string
