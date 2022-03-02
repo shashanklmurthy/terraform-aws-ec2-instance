@@ -7,6 +7,7 @@ resource "aws_instance" "ec2" {
   vpc_security_group_ids      = var.security_groups
   root_block_device {
     volume_size = var.volume_size
+    volume_type = var.volume_type
   }
   tags = merge(
     {
