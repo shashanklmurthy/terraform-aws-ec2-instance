@@ -27,6 +27,7 @@ variable "volume_size" {
 variable "volume_type" {
   description = "volume size"
   type        = string
+  default     = "gp2"
 }
 
 variable "ami_id" {
