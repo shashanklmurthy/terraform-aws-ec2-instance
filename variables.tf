@@ -71,6 +71,5 @@ variable "ssh_user" {
 
 variable "user_data_template" {
   type        = string
-  default     = "./user_data.sh"
   description = "User Data template to use for provisioning EC2 Bastion Host"
 }
